@@ -1,0 +1,15 @@
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+
+server:
+  port: 8443
+  ssl:
+    key-store: classpath:mykeys.jks
+    key-password: letmein
+
+taco:
+  orders:
+    page-size: 10
